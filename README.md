@@ -1,20 +1,21 @@
-# To Do React
+# ToDoReact
 
-Realizado con React y Typescript.
+Aplicación de lista de tareas (To-Do) realizada con **React**, **TypeScript**, **Vite** y **TailwindCSS**, que utiliza un _custom hook_ para organizar la lógica y el estado de las tareas de manera ordenada. :contentReference[oaicite:0]{index=0}
 
-Proceso de Desarrollo:
-Configuración Inicial:
+---
 
-Utilicé Vite para crear el proyecto.
+## 📋 Tabla de contenidos
 
-Creé un custom hook para organizar mejor la lógica y manejar el estado de las tareas de manera más ordenada.
+- [Descripción](#descripción)  
+- [Tecnologías](#tecnologías)  
 
-Funciones Clave:
-Agregar Tarea: Utilicé el evento onClick para capturar la entrada del usuario y agregar una nueva tarea al estado.
-Marcar Tarea como Completada: Utilicé un checkbox para permitir que el usuario marque tareas como completadas, y usé una función handleToggle para cambiar el estado de la tarea y tacharla.
+---
 
-Estilización:
-Para el diseño utilize TailwindCSS
+## 📖 Descripción
 
-Dificultades:
-No hubo complicaciones en el proceso de desarrollo. Todo funcionó de manera fluida.
+ToDoReact es una aplicación sencilla de gestión de tareas que permite:
+
+- ➕ **Agregar** nuevas tareas.  
+- ☑️ **Marcar** tareas como completadas.  
+
+La lógica de estado está abstraída en un custom hook para mantener el componente principal limpio. :contentReference[oaicite:1]{index=1}
